@@ -14,12 +14,20 @@
 
 
     <form id="survey-form" action="submit">
-        <label for="name" id="name-label">Name</label>
+        <label for="name" id="name-label" placeholder="Name">Name</label>
         <input  type="text" id="name" required />
-        <label for="email" id="email-label">Email</label>
+        
+        <label for="email" id="email-label" placeholder="Email">Email</label>
         <input type="mail" id="email" required />
-        <label for="number" id="number-label">Age</label>
+        
+        <label for="number" id="number-label" placeholder="Age">Age</label>
         <input type="number" id="number" min="1" max="90"/>"
+
+        <select name="select" id="dropdown">
+          <option value="">Biking</option>
+          <option value="">Car</option>
+        </select>
+        
 
     </form>
 
