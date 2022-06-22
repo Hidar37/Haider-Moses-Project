@@ -167,4 +167,11 @@ form #submit {
 form #submit:hover {
   background-color: #30c60b;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+}
 /*# sourceMappingURL=style.css.map */
