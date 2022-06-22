@@ -87,10 +87,21 @@ form {
   width: 95%;
 }
 
-form input {
+form input[type='text'], form input[type='email'], form input[type='number'], form select#dropdown {
   display: block;
   width: 100%;
   padding: 0.3em;
-  border-radius: 0.5em;
+  border-radius: 0.2em;
+  border: 0;
+  outline: none;
+  margin-bottom: 1em;
+}
+
+form input[type='radio'] {
+  border: 0em;
+  height: 1em;
+  width: 1em;
+  margin-left: 1em;
+  margin-bottom: 1em;
 }
 /*# sourceMappingURL=style.css.map */
