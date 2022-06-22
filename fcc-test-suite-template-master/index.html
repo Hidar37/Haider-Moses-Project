@@ -23,22 +23,39 @@
         <label for="number" id="number-label" placeholder="Age">Age</label>
         <input type="number" id="number" min="1" max="90"/>"
 
+        <p>Preferred Mode of Transport:</p>
         <select name="select" id="dropdown">
           <option value="">Biking</option>
           <option value="">Car</option>
         </select>
 
-        <input type="radio" name="radio-btn">
-        <input type="radio" name="radio-btn">
+
+        <p>Are you satisfied with our services?</p>
+        <input type="radio" id="radio-btn-1" name="radio-btn">
+        <label for="radio-btn-1">Yes</label>
+        
+        <input type="radio" id="radio-btn-2" name="radio-btn">
+        <label for="radio-btn-2">No</label>
 
         <p>What new stores would you like the mall to have?</p>
-        <input type="checkbox" value="Gaming Store">
-        <input type="checkbox" value="Food Court">
-        <input type="checkbox" value="Banking Services">
-        <input type="checkbox" value="Sporting Goods">
+        <input type="checkbox" id="gaming-checkbox" value="Gaming Store">
+        <label for="gaming-checkbox">Gaming Store</label>
+        
+        <input type="checkbox" id="food-checkbox" value="Food Court">
+        <label for="food-checkbox">Food Court</label>
+        
+        <input type="checkbox" id="banking-checkbox" value="Banking Services">
+        <label for="banking-checkbox">Banking Services</label>
+        
+        <input type="checkbox" id="sporting-checkbox" value="Sporting Goods">
+        <label for="sporting-checkbox">Sporting Goods</label>
 
 
+        <p> Please write any additional comments </p>
+        <textarea name="comment" id="textarea" cols="30" rows="10">
+        </textarea>
 
+        <input type="submit" id="submit" value="Submit"/>
 
     </form>
 
