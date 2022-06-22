@@ -14,14 +14,14 @@
 
 
     <form id="survey-form" action="submit">
-        <label for="name" id="name-label" placeholder="Name">Name</label>
-        <input  type="text" id="name" required />
+        <label for="name" id="name-label">Name</label>
+        <input  type="text" id="name"  placeholder="Name" required />
         
-        <label for="email" id="email-label" placeholder="Email">Email</label>
-        <input type="mail" id="email" required />
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" placeholder="Email" required />
         
-        <label for="number" id="number-label" placeholder="Age">Age</label>
-        <input type="number" id="number" min="1" max="90"/>
+        <label for="number" id="number-label">Age</label>
+        <input type="number" id="number" min="1" max="90" placeholder="Age"/>
 
         <p>Preferred Mode of Transport:</p>
         <select name="select" id="dropdown">
@@ -31,10 +31,10 @@
 
 
         <p>Are you satisfied with our services?</p>
-        <input type="radio" id="radio-btn-1" name="radio-btn">
+        <input type="radio" id="radio-btn-1" name="radio-btn" value="Yes">
         <label for="radio-btn-1">Yes</label>
         
-        <input type="radio" id="radio-btn-2" name="radio-btn">
+        <input type="radio" id="radio-btn-2" name="radio-btn" value="No">
         <label for="radio-btn-2">No</label>
 
         <p>What new stores would you like the mall to have?</p>
