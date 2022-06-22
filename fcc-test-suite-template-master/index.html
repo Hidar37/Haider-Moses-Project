@@ -14,10 +14,10 @@
 
 
       <form id="survey-form" action="submit">
-          <label for="name" id="name-label">Name</label>
+          <label for="name" id="name-label">Name<abbr title="Name Required"><sup>*</sup></abbr>  </label>
           <input  type="text" id="name"  placeholder="Name" required />
           
-          <label for="email" id="email-label">Email</label>
+          <label for="email" id="email-label">Email<abbr title="Email Required"><sup>*</sup></abbr></label>
           <input type="email" id="email" placeholder="Email" required />
           
           <label for="number" id="number-label">Age</label>
@@ -38,20 +38,40 @@
           <label for="radio-btn-2">No</label>
 
           <p>What new stores would you like the mall to have?</p>
-          <input type="checkbox" id="gaming-checkbox" value="Gaming Store">
-          <label for="gaming-checkbox">Gaming Store</label>
           
-          <input type="checkbox" id="food-checkbox" value="Food Court">
-          <label for="food-checkbox">Food Court</label>
-          
-          <input type="checkbox" id="banking-checkbox" value="Banking Services">
-          <label for="banking-checkbox">Banking Services</label>
-          
-          <input type="checkbox" id="sporting-checkbox" value="Sporting Goods">
-          <label for="sporting-checkbox">Sporting Goods</label>
+          <div class="checkbox-main-container">
+            <div class="checkbox-container">
+              
+              <div>
+                <input type="checkbox" id="gaming-checkbox" value="Gaming Store">
+                <label for="gaming-checkbox">Gaming Store</label>
+              </div>
+            
+              <div>
+                <input type="checkbox" id="food-checkbox" value="Food Court">
+                <label for="food-checkbox">Food Court</label>
+            </div>
+            
+          </div>
+            
+            <div class="checkbox-container">
+              
+              <div>
+                <input type="checkbox" id="banking-checkbox" value="Banking Services">
+                <label for="banking-checkbox">Banking Services</label>
+              </div>
+              
+              
+              <div>
+                <input type="checkbox" id="sporting-checkbox" value="Sporting Goods">
+                <label for="sporting-checkbox">Sporting Goods</label>
+              </div>
+           
+            </div>
+          </div>
 
 
-          <p> Please write any additional comments </p>
+          <p> Please write any additional comments: </p>
           <textarea name="comment" id="textarea" cols="30" rows="10">
           </textarea>
 
